@@ -1,0 +1,63 @@
+body {
+  background-image: url('./Images/flam3.jpg');
+  color: #E94;
+  text-shadow: 2px 0 0 black, -2px 0 0 black, 0 2px 0 black, 0 -2px 0 black, 1px 1px black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black;
+  text-align: center;
+}
+
+.container {
+  height: 400px;
+  margin: 0 auto;
+  width: 600px;
+  background-color: #fff;
+  background-image: url('./Images/island1.jpg');
+  background-position: 90px 170px;
+  background-size: 400px;
+  background-repeat: no-repeat;
+  border-color: #E94;
+  border-width: thick;
+  border-style: solid;
+}
+
+.title {
+  margin: 0 auto;
+  margin-bottom: 50px;
+  padding-top: 50px;
+}
+
+.title h1 {
+  padding: 10px;
+  background-color: #fff;
+  width: 350px;
+  margin: auto;
+}
+
+.cell {
+  float: left;
+  height: 20px;
+  width: 30px;
+}
+
+.base {
+  background-image: url('./Images/Sand.jpg');
+  background-size: contain;
+}
+
+.bricks {
+  background-image: url('./Images/clouds.jpg');
+  background-size: contain;
+}
+
+.ball {
+  background-image: url('./Images/ball.jpg');
+  background-size: contain;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+}
+
+/*
+div: es de bloque, ocupa todo el espacio
+El span es de línea, solo ocupa lo mismo que el texto
+
+*/
